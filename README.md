@@ -1,31 +1,42 @@
-https://www.youtube.com/watch?v=kSlJH3hrV58&
+# How To Use GraphQL with Ruby on Rails
 
-Usage:
-http://localhost:3000/graphiql
+[Link to YT HowTo](https://www.youtube.com/watch?v=kSlJH3hrV58&)
 
+### Usages
+
+On Rails APP
+
+[http://localhost:3000/graphiql](http://localhost:3000/graphiql)
+
+####QUERY　
+
+```json
 {
-  users {
-    id,
-    name,
-    email,
-    postsCount
-  }
+	users {
+		id,
+		name,
+		email,
+		postsCount
+	}
 }
-
-
-mutation{
-  createUser(input:{
-    name: "User",
-    email:"user@example.com"
-  }) {
-    user{
-      id,
-      name,
-      email
-      posts {
-        title
-      }
-    }
-    errors
-  }
+```
+####MUTATIONS　
+```json
+mutation {
+	createUser(
+		input: {
+			name: "User",
+			email: "user@example.com"
+		}) {
+		user{
+			id,
+			name,
+			email
+			posts {
+				title
+			}
+		}
+		errors
+	}
 }
+```
