@@ -8,7 +8,7 @@ On Rails APP
 
 [http://localhost:3000/graphiql](http://localhost:3000/graphiql)
 
-####QUERY　
+#### QUERY　
 
 ```json
 {
@@ -20,7 +20,7 @@ On Rails APP
 	}
 }
 ```
-####MUTATIONS　
+#### MUTATIONS　
 ```json
 mutation {
 	createUser(
