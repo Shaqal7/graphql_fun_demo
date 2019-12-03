@@ -49,7 +49,7 @@ In project folder use:
 
 `rails s`
 
-In folder 'frontend' use:
+In folder `frontend` use:
 
 `yarn start`
 
