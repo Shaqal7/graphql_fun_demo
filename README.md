@@ -40,3 +40,20 @@ mutation {
 	}
 }
 ```
+
+Frontend is used React.
+
+### How use:
+
+In project folder use:
+
+rails s
+
+In folder 'frontend' use:
+
+yarn start
+
+In terminal can ask you about port 3000 cause it's already use, so say Y(yes) for other port, and it will be use on 3001
+
+
+Go to web browser on localhost:3001
