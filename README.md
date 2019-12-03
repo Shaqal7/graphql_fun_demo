@@ -47,11 +47,11 @@ Frontend is used React.
 
 In project folder use:
 
-rails s
+`rails s`
 
 In folder 'frontend' use:
 
-yarn start
+`yarn start`
 
 In terminal can ask you about port 3000 cause it's already use, so say Y(yes) for other port, and it will be use on 3001
 
